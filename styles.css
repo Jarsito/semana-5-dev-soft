@@ -1,0 +1,163 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #FEF2EE;
+    color: #2D2B28;
+}
+
+a {
+    text-decoration: none;
+    color: #2D2B28;
+}
+
+/* ====== NAV ====== */
+.nav{
+    background-color: #d1d935; 
+    border-bottom: 1px solid #CCC;  
+}
+
+.nav .container{
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.brand{
+    float: left;
+    padding: 14px 10px;
+    font-weight: bold;
+}
+
+.menu{
+    float: right;
+    padding: 18px 10px;
+}
+
+.menu a {
+  margin: 0 10px;
+  font-weight: bold;  
+}
+
+.right{
+    float: right;
+    padding: 20px;
+}
+
+.btn{
+    background-color: blue;
+    color: #FFFFFF;
+    padding: 8px 14px;
+    border-radius: 10px;
+}
+
+/*====== BANNER =======*/
+.banner{
+    height: 260px;
+    background: url('https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?q=80&w=876&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') center/cover no-repeat;
+    position: relative;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.banner h1{
+    margin: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    font-size: 30px;
+    text-shadow: 0 1px 2px #CCC;
+}
+
+/*====== Secciones ======*/
+.section{
+    padding: 24px 0;
+}
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.title{
+    text-align: center;
+    margin: 0 0 16px;
+    font-size: 30px;
+}
+
+/*====== CARD ======*/
+.card{
+    float: left;
+    width: 31%;
+    margin: 1%;
+    background: #FFFFFF;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.card img{
+    width: 100%;
+    height: 160px;
+    display: block;
+}
+
+.card .body{
+    padding: 10px;
+}
+
+.card h3{
+    margin: 4px 0;
+}
+
+.btn_card{
+    text-align: right;
+}
+
+.price{
+    color: #2D2B28;
+    font-weight: bold;
+    margin: 6px 0 10px;
+}
+
+/*====== FORMULARIO - CONTACTO ======*/
+.form{
+    max-width: 480px;
+    margin: 0 auto;
+}
+
+.row{
+    margin-bottom: 10px;
+}
+
+.input, .textarea{
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #df1b2e;
+    border-radius: 8px;
+    background: #494948;
+    color: #FFFFFF;
+}
+
+.btn_contacto{
+    text-align: center;
+}
+
+/*====== FOOTER ======*/
+.footer{
+    clear: both;
+    text-align: center;
+    padding: 18px 0 26px;
+    color: #494948;
+    border-top: 1px solid #CCC;
+    margin: 20px;
+}
+
+.icons a{
+    display: inline-block;
+    background: blue;
+    padding: 6px 8px;
+    border-radius: 6px;
+    margin: 0 4px;
+    color: #FFFFFF;
+}
